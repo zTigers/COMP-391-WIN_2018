@@ -5,7 +5,7 @@ using UnityEngine;
 public class MovingLaser : MonoBehaviour {
     public float speed;
     private Rigidbody2D rBody;
-    public Boundary boundary;
+    //public Boundary boundary;
 
 
 
