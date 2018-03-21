@@ -93,7 +93,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   explosionAsteroid: {fileID: 1388391101781436, guid: 16a7d13ee22babf42bc47a3b326b8891,
     type: 2}
-  PlayerExplosion: {fileID: 0}
+  PlayerExplosion: {fileID: 1167335331840788, guid: 6591838832ac07148a521fbb3000db65,
+    type: 2}
+  scoreValue: 10
 --- !u!114 &114629829647424918
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -151,7 +153,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: 7f027bf068ef35a41b3bdf0714f963e6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

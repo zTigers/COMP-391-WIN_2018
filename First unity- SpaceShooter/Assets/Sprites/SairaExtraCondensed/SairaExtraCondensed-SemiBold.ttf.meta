@@ -1,0 +1,30 @@
+fileFormatVersion: 2
+guid: ef0ee7fa2fb4f9340aed4ab9de4737b5
+timeCreated: 1521652945
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Saira ExtraCondensed
+  fontNames:
+  - Saira ExtraCondensed
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: bf001d6214236154a92442f502836bcc, type: 3}
+  - {fileID: 12800000, guid: 105ae3a2f6fbf5749a2e49511ec44506, type: 3}
+  - {fileID: 12800000, guid: 82dc5c34825573143b06f66ad50b8566, type: 3}
+  - {fileID: 12800000, guid: 00ef01f80d016fe45812ecec16a7f55c, type: 3}
+  - {fileID: 12800000, guid: 7674e3ca082783e40bc6af1de9e2835d, type: 3}
+  - {fileID: 12800000, guid: 36e8a2fa23b5f544580894a43b33ed43, type: 3}
+  - {fileID: 12800000, guid: 4c76ebadb29ff8945a3a7eef8ac418c7, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
