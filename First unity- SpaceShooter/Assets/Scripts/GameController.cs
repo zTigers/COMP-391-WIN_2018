@@ -6,21 +6,26 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour {
-
+    [Header("Wave Setting")]
     public GameObject hazard; // what are we spawning
     public Vector2 spawnValue; // where do we spawn Hazards
     public int hazardCount; // how many hazards per wave
     public float startWait; // how long until hazard wave starts
     public float spawnWait; // how long between each hazard in each wave
     public float waveWait; // how long between each wave of enemies
-
+    [Header("Text Options")]
     public Text ScoreText;
     public Text restartText;
     public Text gameOverText;
+    [Header("Game Audio Options")]
+    public AudioClip VictorySFX;
+
 
     private bool gameOver;
     private bool restart;
     private int score;
+
+    private AudioSource audiosource;
 
 	// Use this for initialization
 	void Start () {
@@ -29,6 +34,8 @@ public class GameController : MonoBehaviour {
         //ScoreText.text = "";
         restartText.text = "";
         gameOverText.text = "";
+
+        audiosource = GetComponent<AudioSource>();
 
         StartCoroutine(SpawnWaves());
     }
@@ -90,6 +97,12 @@ public class GameController : MonoBehaviour {
         score += newScoreValue;
         // score = score + newScoreValue
         //Debug.Log("Score is " + score);
+
+        if(score % 200 == 0)
+        {
+            audiosource.clip = VictorySFX;
+            audiosource.Play();
+        }
         updateScore();
     }
 
